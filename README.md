@@ -1,2 +1,5 @@
 # CatFeeder
-Real World Microcontrollers 2020 Final Project --- Kitty Caddy Cat Feeder 
+Final Project for Real World Microcontrollers Fall 2020 - Kitty Caddy cat feeder 
+
+## Acknowledgement
+Stan Reifel
