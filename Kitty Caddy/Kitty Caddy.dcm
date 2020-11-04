@@ -1,0 +1,47 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC14D
+D Hex Inverter Scmitt-Trigger
+F https://datasheet.lcsc.com/szlcsc/Nexperia-74HC14D-653_C5605.pdf
+$ENDCMP
+#
+$CMP ATmega328P-AU
+D 10MHz, 4kB Flash, 512B SRAM, 256B EEPROM, TQFP-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf
+$ENDCMP
+#
+$CMP DRV8825
+D Stepper Motor Driver 8.2V to 45V 2.5A
+F https://www.pololu.com/product-info-merged/2133
+$ENDCMP
+#
+$CMP DS3231_Breakout
+D RTC Breakout 5V 32KHz I2C
+K RTC Breakout 5V 32KHz I2C
+F https://cdn-shop.adafruit.com/product-files/3013/DS3231.pdf
+$ENDCMP
+#
+$CMP FT232RL
+D Kitty Caddy FTDI chip for USB - UART comms
+K FTDI USB UART SSOP
+F https://datasheet.lcsc.com/szlcsc/Future-Designs-FT232RL-REEL_C8690.pdf
+$ENDCMP
+#
+$CMP OLED_Display
+D 0.96" OLED 5V I2C 128x64
+K 0.96" OLED 5V I2C
+F https://www.uctronics.com/download/Amazon/U602602.pdf
+$ENDCMP
+#
+$CMP PJ-051A
+D DC Power Jack Conn 2.0 mm Center Pin, 2.5 A, Right Angle, Through Hole, Shielded
+F https://www.cuidevices.com/product/resource/pj-051a.pdf
+$ENDCMP
+#
+$CMP SPST_ESw
+D Switch Tactile SPST-NO 0.05A 12V
+F http://spec_sheets.e-switch.com/specs/P010003.pdf
+$ENDCMP
+#
+#End Doc Library

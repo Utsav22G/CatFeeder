@@ -1,0 +1,51 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Vendor,Vendor Part #,Manufacturer,Link,Comments
+1,Unpolarized capacitor,C,C5,0.01uF,C_0603,1,~,,,,,
+2,Unpolarized capacitor,C,C2 C7 C8 C9 C10 C13 C14 C15,0.1uF,C_0603,8,~,,,,,
+3,Polarized capacitor,CP,C3,100uF,CP_Radial_D10.0mm_P5.00mm,1,https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf,DigiKey,493-13402-ND,Nichicon,,
+4,Polarized capacitor,CP,C1,10uF,CP_Radial_D5.0mm_P2.00mm,1,https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf,DigiKey,UKL1H100KDDANA-ND,Nichicon,,
+5,Polarized capacitor,CP,C6,220uF,CP_Radial_D12.5mm_P5.00mm,1,https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf,DigiKey,493-14487-ND,Nichicon,,
+6,"Unpolarized capacitor, small symbol",C_Small,C11 C12,22pF,C_0603,2,~,LCSC,C1653,Samsung Electro-Mechanics,,
+7,Polarized capacitor,CP,C4,47uF,CP_Radial_D10.0mm_P5.00mm,1,https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf,DigiKey,493-13402-ND,Nichicon,,
+8,"20V 3A Schottky Barrier Rectifier Diode, SMC",B340,D1,B340,D_SMA,1,1903051003_MDD-Jiangsu-Yutai-Elec-SS14_C2480.pdf,LCSC,C2480,Microdiode Electronics,,
+9,Diode,D,D4,D_RESET,D_SMA,1,https://datasheet.lcsc.com/szlcsc/MDD-Jiangsu-Yutai-Elec-M7-GPP_C95872.pdf,LCSC,C95872,Microdiode Electronics,,
+10,Light emitting diode,LED,D5,Debug LED,LED_0603,1,Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf,LCSC,C72041,Everlight Elec,,
+11,Light emitting diode,LED,D2,RX Red,LED_0805,1,Foshan-NationStar-Optoelectronics-FC-2012HRK-620D_C84256.pdf,LCSC,C84256,Foshan NationStar Optoelectronics,,
+12,Light emitting diode,LED,D3,TX Green,LED_0603,1,Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf,LCSC,C72043,Everlight Elec,,
+13,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x03_Odd_Even,J5,ICSP Header VM,Pin_Header_Straight_2x03_Pitch2.54mm,1,~,DigiKey,1849-PR20203VBDN-ND,METZ CONNECT USA Inc.,,
+14,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04,J2,Motor Conn VM,Pin_Header_Straight_1x04_Pitch2.54mm,1,~,DigiKey,WM2702-ND,Molex,,
+15,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x05,J3,Optocoupler Conn VM,Pin_Header_Straight_1x05_Pitch2.54mm,1,~,DigiKey,WM2703-ND,Molex,,
+16,"DC Power Jack Conn 2.0 mm Center Pin, 2.5 A, Right Angle, Through Hole, Shielded",PJ-051A,J1,PJ-051A,CUI_PJ-051A,1,https://www.cuidevices.com/product/resource/pj-051a.pdf,DigiKey,CP-051A-ND,CUI Inc.,https://www.digikey.com/product-detail/en/cui-inc/PJ-051A/CP-051A-ND/1644585?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol,https://electronics.stackexchange.com/questions/2381/deciphering-a-dc-jack-schematic
+17,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06,J4,Serial Conn RM,Pin_Header_Straight_1x06_Pitch2.54mm,1,~,DigiKey,1849-PR20206HBNN-ND,METZ CONNECT USA Inc.,,
+18,Inductor,L,L1,15uH,L_Radial_D12.0mm_P10.00mm_Neosid_SD12_style1,1,https://www.we-online.de/katalog/datasheet/744750460150.pdf,DigiKey,732-10828-ND,Würth Elektronik,,
+19,Resistor,R,R8 R9 R12 R13 R14 R16 R17,10k,R_0603,7,~,,,,,
+20,Resistor,R,R3,10k,R_0805,1,~,,,,,
+21,Resistor,R,R5,120,R_0603,1,~,,,,,
+22,Resistor,R,R7 R10 R11 R15,1k,R_0603,4,~,,,,,
+23,Resistor,R,R6,22k,R_0603,1,~,,,,,
+24,Resistor,R,R4,3.24k,R_0805,1,~,,,,,
+25,Resistor,R,R1 R2,4k7,R_0603,2,~,,,,,
+26,"Push button switch, generic, two pins",SW_Push,SW2,DOWN,SPST_TE,1,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English,Digikey,450-1650-ND,TE Connectivity,,
+27,"Push button switch, generic, two pins",SW_Push,SW3,MODE,SPST_TE,1,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English,Digikey,450-1650-ND,TE Connectivity,,
+28,"Push button switch, generic, two pins",SW_Push,SW1,UP,SPST_TE,1,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English,Digikey,450-1650-ND,TE Connectivity,,
+29,Hex Inverter Scmitt-Trigger,74HC14D,U5,74HC14D,SOIC-14_N,1,https://datasheet.lcsc.com/szlcsc/Nexperia-74HC14D-653_C5605.pdf,LCSC,C5605,Nexperia,,
+30,"10MHz, 4kB Flash, 512B SRAM, 256B EEPROM, TQFP-32",ATmega328P-AU,U6,ATmega328P-AU,TQFP-32_7x7mm_P0.8mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf,LCSC,C14877,Microchip Tech,,
+31,Stepper Motor Driver 8.2V to 45V 2.5A,DRV8825,U2,DRV8825,DRV8825,1,https://www.pololu.com/product-info-merged/2133,Pololu,2133,Pololu,https://www.pololu.com/product/2133,
+32,RTC Breakout 5V 32KHz I2C,DS3231_Breakout,U4,DS3231 RTC,Pin_Header_Straight_1x08_Pitch2.54mm,1,https://cdn-shop.adafruit.com/product-files/3013/DS3231.pdf,Adafruit,3013,Adafruit,,
+33,"0.96"" OLED 5V I2C 128x64",OLED_Display,U1,OLED_Display,Pin_Header_Straight_1x04_Pitch2.54mm,1,https://www.uctronics.com/download/Amazon/U602602.pdf,Amazon,B072Q2X2LL,Uctronics,,
+34,"3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-36V Input Voltage, PowerSO-8",TPS5430DDA,U3,TPS5430DDA,TI_SO-PowerPAD-8_ThermalVias,1,http://www.ti.com/lit/ds/symlink/tps5430.pdf,LCSC,C9864,Texas Instruments,,
+35,"Four pin crystal, GND on pins 2 and 4",Crystal_GND24,Y1,16MHz,SMD-3225_4P,1,https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-X322516MLB4SI_C13738.pdf,LCSC,C13738,Yangxing Tech,,
+
+
+
+
+
+Component Groups:,35
+Component Count:,53
+Fitted Components:,53
+Number of PCBs:,1
+Total components:,53
+Schematic Version:,v1
+Schematic Date:,2020-10-05
+BoM Date:,10/26/2020 7:07:13 PM
+Schematic Source:,C:\Users\ugupta\Desktop\Fall 2020\Microcontrollers\Kitty Caddy\Kitty Caddy.sch
+KiCad Version:,Eeschema (5.1.6)-1

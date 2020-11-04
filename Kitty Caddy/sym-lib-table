@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Kitty-Caddy-rescue)(type Legacy)(uri "${KIPRJMOD}/Kitty Caddy-rescue.lib")(options "")(descr ""))
+)
